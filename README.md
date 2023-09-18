@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="node-olx_clone-api" />
+  <img src="./.github/app.gif" alt="returnAll_bot" />
 
   &#xa0;
 </div>
@@ -7,13 +7,13 @@
 <h1 align="center">node-olx_clone-api</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/alissoncavalcanticma/node-olx_clone-api?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/alissoncavalcanticma/returnAll_bot?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/alissoncavalcanticma/node-olx_clone-api?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/alissoncavalcanticma/returnAll_bot?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/alissoncavalcanticma/node-olx_clone-api?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/alissoncavalcanticma/returnAll_bot?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/alissoncavalcanticma/node-olx_clone-api?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/alissoncavalcanticma/returnAll_bot?color=56BEB8">
 
 </p>
 
@@ -30,7 +30,7 @@
 
 ## :dart: About ##
 
-Projeto clone API OLX usado no curso de NodeJS da B7Web
+Projeto BOT Telegram com Webhook ngrok usando Node.js
 
 ## :rocket: Technologies ##
 
@@ -47,16 +47,16 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 
 ```bash
 # Clone this project
-$ git clone https://github.com/alissoncavalcanticma/node-olx_clone-api
+$ git clone https://github.com/alissoncavalcanticma/returnAll_bot
 
 # Access
-$ cd node-olx_clone-api
+$ cd returnAll_bot
 
 # Install dependencies
 $ npm i
 
 # Run the project
-$ npm run startdev
+$ npm run start
 
 # The server will initialize in the <http://localhost:4000>
 ```
