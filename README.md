@@ -4,7 +4,7 @@
   &#xa0;
 </div>
 
-<h1 align="center">node-olx_clone-api</h1>
+<h1 align="center">returnAll_bot project</h1>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/alissoncavalcanticma/returnAll_bot?color=56BEB8">
@@ -56,7 +56,7 @@ $ cd returnAll_bot
 $ npm i
 
 # Run the project
-$ npm run start
+$ npm run dev
 
 # The server will initialize in the <http://localhost:4000>
 ```
