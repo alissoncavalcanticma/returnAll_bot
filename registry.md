@@ -24,3 +24,11 @@
 ##### Levantar container com o ngrok na porta 4000
 
 - docker run --name ngrok -it -e NGROK_AUTHTOKEN=<TOKEN> ngrok/ngrok:latest http host.docker.internal:4000
+
+##### Sites utilizados para o projeto:
+
+TELEGRAM:
+ - https://web.telegram.org/
+
+NGROK:
+ - https://dashboard.ngrok.com/
