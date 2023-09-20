@@ -12,11 +12,15 @@
 
 ##### Instalar Client ngrok
  - Download
- - Chocolatey: (CMD) choco install ngrok
- - Docker (com token):  docker run -it -e NGROK_AUTHTOKEN=<token> ngrok/ngrok http 4000
+ - Chocolatey: (CMD) `choco install ngrok`
+ - Docker (com token)
 
 
 ##### Levantar tunel ngrok na porta 4000
-*Com Docker não precisa, o túnel já é criado no start do container
- - `ngrok http 4000` -- Definir a mesma porta do server Node.js
+ - Instalar o client local, baixando do site do ngrok 
+ - Levantar o túnel com o client local usanto o comando`ngrok http 4000` -- Definir a mesma porta do server Node.js
  - Serviço pode ser acessado em: http://127.0.0.1:4040/
+
+##### Levantar container com o ngrok na porta 4000
+
+- docker run --name ngrok -it -e NGROK_AUTHTOKEN=<TOKEN> ngrok/ngrok:latest http host.docker.internal:4000
